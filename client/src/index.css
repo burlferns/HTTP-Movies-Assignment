@@ -66,6 +66,63 @@ body {
   color: white;
 }
 
+.update-button {
+  position: absolute;
+  top: 75px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+.update-button:hover {
+  background-color: green;
+  color: white;
+}
+
+.update-button-link {
+  text-decoration: none;
+  color:black;
+}
+
+.update-button-link:hover {
+  color:white;
+}
+
+.input-area {
+  width:500px;
+  font-size:16px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.updateMovieTitle {
+  text-align: center;
+}
+
+.updateMovieBtn {
+  margin-top:10px;
+  font-size:16px;
+}
+
+.delete-button {
+  position: absolute;
+  top: 125px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+.delete-button:hover {
+  background-color: green;
+  color: white;
+}
+
+
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
